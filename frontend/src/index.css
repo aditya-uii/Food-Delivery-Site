@@ -1,0 +1,23 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply min-h-screen;
+}
+a{
+  text-decoration:none;
+  color: inherit;
+}
+.active {
+  @apply border-b-2 border-blue-500; /* Tailwind utilities */
+}
+
+.explore-menu-list::-webkit-scrollbar {
+  display: none; /* Hide scrollbar for WebKit browsers */
+}
+.explore-menu-list-item .active{
+  border: 4px solid tomato;
+  padding: 2px;
+}

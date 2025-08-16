@@ -1,0 +1,11 @@
+dependecy----
+express
+mongoose
+cors-to connect fronted to the backend
+dotenv-to use environment variable in the project
+jsonWebToken-to make the authentication system
+bycrpt-to encrypt user's data and store it into the data base
+body parser - to parse data coming for the user
+multer-to create img store system
+stripe-to add payment gateways on the page
+validator - to check the pass and email is valid or not
