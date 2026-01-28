@@ -15,7 +15,7 @@ const App = () => {
    <div>
     <ToastContainer/>
      <Navbar/>
-     {/* <hr /> */}
+     <hr />
      <div className="app-component flex">
       <Sidebar/>
       <Routes>
