@@ -89,7 +89,7 @@ const Add = ({url}) => {
 
         {/* Product Name */}
         <div className="add-product-name flex flex-col gap-1">
-          <p className="text-lg">Product name</p>
+          <p className="text-lg">Product Name</p>
           <input
             onChange={onChangeHandler}
             value={data.name}
